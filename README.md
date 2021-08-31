@@ -3,7 +3,9 @@
 
 ## Live
 
-- You can look at live [here](https://www.ombayus.com/)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/e6299b39-be47-4542-9ff3-ea453ed953f6/deploy-status)](https://www.ombayus.com/)
+
+- Review at live [here](https://www.ombayus.com/)
 
 ## Technologies used:
 
