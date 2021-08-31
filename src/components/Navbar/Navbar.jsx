@@ -60,7 +60,7 @@ const NavbarM = ()=>{
       });
 
       return(
-      <div className="Navbar">
+      <navbar className="Navbar">
                   <Navbar expand="lg" style={scrollY > 70 ? {backgroundColor:"#0E0A03"} : {backgroundColor:"transparent"}} fixed="top">
                         <Container>
                               <Navbar.Brand href="/" className="nav-heading">OmBayus</Navbar.Brand>
@@ -117,7 +117,7 @@ const NavbarM = ()=>{
             </Drawer>
             </React.Fragment>
             
-      </div>
+      </navbar>
       )
 }
 

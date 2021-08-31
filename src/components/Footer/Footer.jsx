@@ -21,7 +21,7 @@ const Footer = ()=>{
                   ))}
             </ul>
             {/* eslint-disable */}
-            <p className="copyright">Company Name © 2021 | Bu Websitesi <a href="https://github.com/OmBayus" target="_blank">OmBayus</a> tarafından yapılmıştır</p>
+            <p className="copyright">OmBayus © 2021 | Bu web sitesi <a href="https://github.com/OmBayus" target="_blank">OmBayus</a> tarafından tasarlanmıştır.</p>
       </footer>
       )
 }
