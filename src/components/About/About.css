@@ -1,0 +1,20 @@
+.about-heading h1{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-size: 7vw;
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: 900;
+}
+
+.about-heading h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+
+@media only screen and (max-width: 767px){
+    .about-heading h1{
+        display: none;
+    }
+}

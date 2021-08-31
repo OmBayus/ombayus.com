@@ -1,0 +1,31 @@
+.icon{
+    max-width: 50%;
+}
+
+.selectPayment{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgba(255, 255, 255, 0.288);
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.568);
+    margin: 10px 20px;
+    cursor: pointer;
+    box-shadow: 2px -1px 2px rgba(255, 255, 255, 0.288);
+    transition: box-shadow .3s;
+}
+
+.selectPayment:hover{
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.288);
+}
+
+@media only screen and (max-width: 600px) {
+    .selectPayment{
+        height: 120px;
+        width: 120px;
+        margin: 10px 10px;
+    }
+}

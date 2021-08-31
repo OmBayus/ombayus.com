@@ -1,0 +1,126 @@
+#contact{
+    text-align: center;  
+    color: #fff;
+    padding: 20px 30px 0;
+  }
+  
+  ::-webkit-input-placeholder {
+    color:#fff !important;
+    opacity:1;
+  }
+  ::-moz-placeholder {
+    color:#fff !important;
+    opacity:1;
+  }
+  :-ms-input-placeholder {
+    color:#fff !important;
+    opacity:1;
+  }
+  :-moz-placeholder {
+    color:#fff !important;
+    opacity:1;
+  }
+  .input-field {
+    margin-bottom:15px;
+  }
+  .form-control {
+    height: 50px;
+    color:#fff;
+    border: none;
+    background:rgba(250,250,250,0.05);
+    border: 1px solid rgba(250,250,250,0.5);
+    border-radius: 10px;
+    padding:4px 22px;
+    font-size:14px;
+    margin-bottom: 30px;
+  }
+  .form-control:focus {
+    box-shadow:none;
+    outline:none;
+    background:rgba(0,0,0,0.05);
+    border: 1px solid #ffbd39;
+    color:#fff;
+  }
+  textarea.form-control {
+    height:123px;
+    padding-top:15px;
+  }
+  .contact-section .btn {
+    width:100%;
+  }
+  .contact-box {
+    text-align:left;
+  }
+  .contact-box h4 {
+    font-size:24px;
+  }
+  .contact-box h4:after {
+    content:'';
+    display:block;
+    width:50px;
+    height:2px;
+    background:#fff;
+    margin:12px 0;
+  }
+  .contact-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background: rgba(250,250,250,0.25);
+    border-radius: 10px;
+    padding: 30px;
+    font-weight: 700;
+  }
+  .contact-row i {
+    width:55px;
+    font-size: 30px;
+    display:block;
+  }
+  .contact-row i.fa-envelope {
+    font-size: 25px;
+  }
+  
+  .contact-btn{
+        background-color: #ffbd39!important;
+        border-color: #ffbd39!important;
+        padding: 0px 35px;
+        line-height: 52px;
+        font-weight: 600;
+        transition: background-color .3s;
+  }
+  
+  .contact-btn:hover{
+        background-color:transparent;
+        color: #fff;
+  }
+  
+  .contact-title{
+        margin-bottom: 40px;
+        font-size: 24px;
+        font-weight: 300;
+  }
+  
+  .contact-title h2{
+        font-size: 32px;
+        font-weight: 600;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    #contact{
+      padding: 0;
+    }
+    .contact-row{
+      padding: 10px 15px;
+      font-size: 13px;
+      overflow: hidden;
+    }
+    .contact-row i{
+      font-size: 25px;
+    }
+  }

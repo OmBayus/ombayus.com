@@ -1,0 +1,103 @@
+.nav-mobil-open{
+    display: none;
+    cursor: pointer;
+    color: white!important;
+}
+
+.nav-links a{
+    margin-right: 35px;
+}
+.nav_social{
+    padding: 0 20px;
+    font-size: 15px;
+}
+.nav_social a{
+    margin-right: 15px;
+    transition: opacity .2s;
+}
+
+.nav_social a:hover{
+    opacity: 0.5;
+}
+
+.Navbar a{
+    color: white!important;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-links a.active{
+    color: #ffbd39!important;
+}
+
+#basic-navbar-nav a{
+    font-size: 1.1rem;
+}
+
+.nav-links a:after {
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background: #ffbd39;
+    content: "";
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    transition: all, 0.3s;
+}
+
+.nav-links a.active:after {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.nav-links a:hover:after {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.nav-mobil a div div span{
+    font-family: 'STIX Two Math', serif;
+    font-size: 1.3rem;
+}
+
+.nav-mobil a{
+    color: rgb(0, 0, 0);
+    transition: color 0.2s;
+}
+
+.nav-mobil a:hover{
+    color: rgba(0, 0, 0, 0.508);
+}
+
+.nav-heading{
+    font-weight: 800;
+    font-size: 2rem;
+    color: white!important;
+}
+
+@media only screen and (max-width: 991px) {
+    .nav-mobil-open{
+          display: block;
+          position: absolute;
+          top: 20px;
+          right: 25px;
+          color: white;
+          font-size:1.5rem;
+          transition: opacity 0.2s;
+    }
+    .nav-mobil-open:hover{
+          opacity: 0.6;
+    }
+}
+
+.Navbar .navbar{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 9;
+}
