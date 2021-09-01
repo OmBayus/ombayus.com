@@ -84,6 +84,9 @@ const MetaMask = ()=>{
                 setAdress(accounts[0])
             })
         }
+        else{
+            window.open("https://metamask.io/","_blank")
+        }
     }
 
     const sendBNB = async()=>{

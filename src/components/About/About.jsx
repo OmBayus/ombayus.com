@@ -45,8 +45,9 @@ const About = ()=>{
                                     <span className="number">{data.public_repos} </span>
                                     <span>Project complete</span>
                                 </p>
-                                {/* eslint-disable */}
-                                <p><a href="https://github.com/OmBayus?tab=repositories" target="_blank" className="aboutBtn py-3 px-3">Go My Repositories</a></p>
+                                <button onClick={()=>{
+                                    window.open("https://github.com/OmBayus?tab=repositories", "_blank")
+                                }} className="aboutBtn py-3 px-4">Go My Repositories</button>
                             </div>
                         </div>
                 </Col>
