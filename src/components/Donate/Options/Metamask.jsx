@@ -119,7 +119,7 @@ const MetaMask = ()=>{
     return(
         <Container>
             <BrowserView>
-                <Snackbar open={alert.open} autoHideDuration={1000} onClose={()=>setAlert({open:false,severity:"error",text:""})}>
+                <Snackbar open={alert.open} autoHideDuration={2000} onClose={()=>setAlert({open:false,severity:"error",text:""})}>
                     <Alert onClose={()=>setAlert({open:false,severity:"error",text:""})} severity={alert.severity}>
                         {alert.text}
                     </Alert>

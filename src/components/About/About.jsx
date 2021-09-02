@@ -1,5 +1,6 @@
 import axios from "axios"
 import React from "react"
+import Zoom from 'react-reveal/Zoom';
 import { useState } from "react"
 import { useEffect } from "react"
 import { Row,Col, Container } from "react-bootstrap"
@@ -22,9 +23,12 @@ const About = ()=>{
         <Container>
             <Row className="py-4">
                 <Col md={6} className="d-flex align-items-center justify-content-center">
-                    <img src="/profil.png" alt="profil" className="profil" />
+                    <Zoom>
+                        <img src="/profil.png" alt="profil" className="profil" />
+                    </Zoom>
                 </Col>
                 <Col md={6}>
+                    <Zoom>
                         <div className="row justify-content-start pb-3">
                             <div className="col-md-12 about-heading">
                                 <h1>About</h1>
@@ -50,6 +54,7 @@ const About = ()=>{
                                 }} className="aboutBtn py-3 px-4">Go My Repositories</button>
                             </div>
                         </div>
+                    </Zoom>
                 </Col>
             </Row>           
         </Container>

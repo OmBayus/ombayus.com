@@ -1,4 +1,5 @@
 import React from "react"
+import Zoom from 'react-reveal/Zoom';
 import {Row,Col,Button, Container} from "react-bootstrap"
 
 import "./Contact.css"
@@ -9,8 +10,10 @@ const Contact = ()=>{
       <Row id="contact" className="justify-content-center text-light">
             <Col md="7">
                   <div className="contact-title">
-                        <span>Contact</span>
-                        <h2>Contact with me!</h2>
+                        <Zoom>
+                              <span>Contact</span>
+                              <h2>Contact with me!</h2>
+                        </Zoom>
                   </div>
                   <div className="contact-section">
                         <Row>
