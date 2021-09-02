@@ -7,6 +7,10 @@
 
 - Review at live [here](https://www.ombayus.com/)
 
+## Preview
+
+<img src="https://drive.google.com/uc?export=view&id=1_Kjjj3cNlyqKq-riu40I7zUqgXpEAB8e"/>
+
 ## Technologies used:
 
 * React
