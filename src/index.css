@@ -11,6 +11,8 @@ body {
   background-color: black;
   display: flex;
   align-items: center;
+  overflow: hidden;
+
 }
 
 a:hover{

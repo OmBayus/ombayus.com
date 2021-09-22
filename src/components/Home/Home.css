@@ -35,7 +35,7 @@
 
 .aboutBtn{
     background: #ffbd39;
-    border: 1px solid #ffbd39 !important;
+    border: 1px solid #ffbd39;
     color: #000000;
     cursor: pointer;
     -webkit-border-radius: 40px;

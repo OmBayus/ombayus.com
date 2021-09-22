@@ -1,0 +1,130 @@
+.payment {
+    margin: auto;
+    width: 600px;
+    padding: 3rem 3.5rem;
+    background: rgba(0, 0, 0, 0.74);
+    color: white;
+}
+
+@media(max-width:767px) {
+    .payment {
+        width: 100%;
+        padding: 1.5rem;
+    }
+}
+
+@media(height:1366px) {
+    .payment {
+        width: 100%;
+        padding: 8vh
+    }
+}
+
+.payment-price {
+    font-weight: 700;
+}
+
+.payment-per{
+    font-size: 0.6em;
+}
+
+.payment-dialog .MuiPaper-root{
+    border-radius: 50px!important;
+    background-color: transparent!important;
+    width: 100%;
+}
+
+
+.payment input {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.87);
+    min-width: unset;
+    background-color: transparent;
+    border-color: transparent;
+    margin: 0
+}
+
+.payment input::placeholder{
+    color: #ffbd3979!important;
+}
+
+.payment form .row {
+    margin: 0;
+    overflow: hidden
+}
+
+.payment form .row-1 {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 0.4em 0.2em;
+    outline: none;
+    width: 100%;
+    min-width: unset;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.74);
+    border-color: rgba(255, 255, 255, 0.24);
+    margin: 2vh 0;
+    overflow: hidden
+}
+
+.payment form .row-2 {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0 0.8rem
+}
+
+.payment form .row .row-2 {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0 0.8rem
+}
+
+.payment form .row .col-2,
+.payment .col-7,
+.payment .col-3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 1vh
+}
+
+.payment form .row .col-2 {
+    padding-right: 0
+}
+
+#payment-header {
+    font-weight: bold;
+    font-size: 0.9rem
+}
+
+#payment-inner {
+    font-size: 0.7rem;
+    color: gray
+}
+
+
+.payment .btn {
+    width: 100%;
+    background-color: #ffbd39;
+    border-color: #ffbd39;
+    color: white;
+    justify-content: center;
+    padding: 2vh 0;
+    margin-top: 3vh
+}
+
+.payment .btn:focus {
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    -webkit-box-shadow: none;
+    transition: none
+}

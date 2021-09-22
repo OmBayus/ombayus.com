@@ -2,6 +2,7 @@ import HomeIcon from '@material-ui/icons/Home';
 import BusinessIcon from '@material-ui/icons/Business';
 import InfoIcon from '@material-ui/icons/Info';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
+import StoreIcon from '@material-ui/icons/Store';
 
 const routes = {
     Links:[
@@ -16,6 +17,12 @@ const routes = {
             path:"/about",
             activeClass:"active",
             icon:<InfoIcon />,
+        },
+        {
+            title:"Shop",
+            path:"/shop",
+            activeClass:"active",
+            icon:<StoreIcon />,
         },
         {
             title:"Projects",
