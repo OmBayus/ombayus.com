@@ -25,7 +25,7 @@ const useStyles = makeStyles({
       },
 });
 
-const NavbarM = ()=>{
+const Navi = ()=>{
 
       const location = useLocation();
 
@@ -60,7 +60,7 @@ const NavbarM = ()=>{
       });
 
       return(
-      <navbar className="Navbar">
+      <div className="Navbar">
                   <Navbar expand="lg" style={scrollY > 70 ? {backgroundColor:"#0E0A03"} : {backgroundColor:"transparent"}} fixed="top">
                         <Container>
                               <Navbar.Brand href="/" className="nav-heading">OmBayus</Navbar.Brand>
@@ -117,8 +117,8 @@ const NavbarM = ()=>{
             </Drawer>
             </React.Fragment>
             
-      </navbar>
+      </div>
       )
 }
 
-export default NavbarM
+export default Navi
