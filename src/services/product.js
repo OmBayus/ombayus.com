@@ -1,6 +1,7 @@
 import axios from "axios"
 
-const url = "http://localhost:4000/api/product/"
+const url = "https://ombayuscom.herokuapp.com/api/product/"
+// "http://localhost:4000/api/product/"
 
 
 const getAll = async ()=>{
