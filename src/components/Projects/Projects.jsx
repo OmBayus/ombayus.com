@@ -14,6 +14,7 @@ const Projects = ()=>{
     useEffect(()=>{
         const getAll = async()=>{
             const res = await ProjectService.getAll()
+            console.log(res)
             setData(res)
         }
         getAll()
