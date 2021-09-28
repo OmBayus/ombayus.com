@@ -5,7 +5,7 @@ const url = "https://ombayuscom.herokuapp.com/api/project/"
 
 
 const getAll = async ()=>{
-      const res = await axios.get(url+"getall")
+      const res = await axios.get(url+"getall?status=true")
 
       return res.data
 }
