@@ -50,7 +50,7 @@ const Pricing = ()=>{
                                           <p className="text-muted mb-4">* {item.description}</p>
                                                 <ul className="list-unstyled text-left mb-5">
                                                       {item.features.map(fea=>(
-                                                            fea.active ? <li><i className="fas fa-check mr-1 check"></i>{fea.feature}</li>: <li className="text-muted"><i className="fas fa-check mr-1"></i><del>{fea.feature}</del></li>
+                                                            <li><i className="fas fa-check mr-1 check"></i>{fea}</li>
                                                       ))}
                                                 </ul>
                                           <p><button className="btn-block aboutBtn py-3 px-4" onClick={()=>setPaymentPage(true)}>Buy Now</button></p>
