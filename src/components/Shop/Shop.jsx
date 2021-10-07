@@ -19,7 +19,7 @@ const Pricing = ()=>{
             description:"",
             features:[]
       }])
-      const [paymentPage, setPaymentPage] = useState(false);
+      const [payment, setPayment] = useState({open:false,product:{}});
 
       useEffect(()=>{
             const getAll = async()=>{
@@ -53,14 +53,14 @@ const Pricing = ()=>{
                                                             <li><i className="fas fa-check mr-1 check"></i>{fea}</li>
                                                       ))}
                                                 </ul>
-                                          <p><button className="btn-block aboutBtn py-3 px-4" onClick={()=>setPaymentPage(true)}>Buy Now</button></p>
+                                          <p><button className="btn-block aboutBtn py-3 px-4" onClick={()=>setPayment({open:true,product:item})}>Buy Now</button></p>
                                     </div>
                               </Slide>
                         </div>
                   ))}
                   
             </Row>
-            <Payment open={paymentPage} setOpen={setPaymentPage}/>
+            <Payment product={payment.product} open={payment.open} onClose={()=>setPayment({open:false,product:{}})}/>
       </Container>
       )
 }

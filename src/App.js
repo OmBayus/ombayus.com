@@ -7,6 +7,7 @@ import Home from "./components/Home/Home"
 import About from "./components/About/About"
 import Projects from "./components/Projects/Projects"
 import Shop from "./components/Shop/Shop"
+import Order from "./components/Order/Order"
 import Contact from "./components/Contact/Contact"
 import Donate from "./components/Donate/Donate"
 import Metamask from "./components/Donate/Options/Metamask"
@@ -52,6 +53,10 @@ const App = ()=>{
 
                             <Route path="/shop">
                                 <Shop/>
+                            </Route>
+
+                            <Route path="/order/:id">
+                                <Order/>
                             </Route>
 
                             <Route path="/projects">

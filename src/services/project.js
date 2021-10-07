@@ -1,7 +1,6 @@
 import axios from "axios"
 
-const url = "https://ombayuscom.herokuapp.com/api/project/" 
-// "http://localhost:4000/api/project/"
+const url = process.env.REACT_APP_API_URL+"project/" 
 
 
 const getAll = async ()=>{

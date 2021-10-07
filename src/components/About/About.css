@@ -13,6 +13,10 @@
     color: #fff;
 }
 
+.about-info span{
+    color: #999999!important;
+}
+
 @media only screen and (max-width: 767px){
     .about-heading h1{
         display: none;
