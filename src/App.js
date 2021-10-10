@@ -1,19 +1,21 @@
 import React, { useEffect, useState } from "react"
 import {Switch,Route,useLocation} from "react-router-dom";
+import { socket } from "./socket";
 
 //components
 import Navbar from "./components/Navbar/Navbar"
-import Home from "./components/Home/Home"
-import About from "./components/About/About"
-import Projects from "./components/Projects/Projects"
-import Shop from "./components/Shop/Shop"
-import Order from "./components/Order/Order"
-import Contact from "./components/Contact/Contact"
-import Donate from "./components/Donate/Donate"
-import Metamask from "./components/Donate/Options/Metamask"
 import Footer from "./components/Footer/Footer"
-import { socket } from "./socket";
 import Msg from "./components/Msg";
+
+const Home = React.lazy(()=>import("./components/Home/Home"))
+const About = React.lazy(()=>import("./components/About/About"))
+const Projects = React.lazy(()=>import("./components/Projects/Projects"))
+const Shop = React.lazy(()=>import("./components/Shop/Shop"))
+const Order = React.lazy(()=>import("./components/Order/Order"))
+const Contact = React.lazy(()=>import("./components/Contact/Contact"))
+const Donate = React.lazy(()=>import("./components/Donate/Donate"))
+const Metamask = React.lazy(()=>import("./components/Donate/Options/Metamask"))
+const NotFound = React.lazy(()=>import("./components/404/404"))
 
 const App = ()=>{
     let location = useLocation();
@@ -72,6 +74,10 @@ const App = ()=>{
                             </Route>
                             <Route path="/donate/metamask">
                                 <Metamask />
+                            </Route>
+
+                            <Route>
+                                <NotFound/>
                             </Route>
                         </Switch>
                     </div>

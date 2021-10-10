@@ -38,6 +38,9 @@ const Payment = ({product,open,onClose})=>{
             if(!res.data.error){
                 window.location = res.data.paymentPageUrl
             }
+            else{
+                console.log(res.data)
+            }
         })
         .catch(err=>{
             console.log(err)

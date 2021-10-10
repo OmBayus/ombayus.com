@@ -1,0 +1,68 @@
+.notfound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+}
+.notfound_subtitle {
+    color: #ffbd39;
+    text-transform: uppercase;
+    letter-spacing: 5pt;
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin-bottom: -5em;
+}
+.notfound .notfound_title {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    --x-shadow: 0;
+    --y-shadow: 0;
+    --x:50%;
+    --y:50%;
+    font-size: 15rem;
+    transition: all 0.2s ease;
+    position: relative;
+    padding: 2rem;
+}
+.notfound .notfound_title:hover {
+    transition: all 0.2s ease;
+    text-shadow: var(--x-shadow) var(--y-shadow) 10px #ffbd399c;
+}
+.notfound .notfound_title p {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    background-image: radial-gradient(circle closest-side, rgba(255, 255, 255, 0.05), transparent);
+    background-position: var(--x) var(--y);
+    background-repeat: no-repeat;
+    text-shadow: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.1s ease;
+}
+
+.notfound_btn {
+    padding: 0.8em 1.5em;
+    border-radius: 99999px;
+    background-image: linear-gradient(to top, #ffbd39, #ffbd39);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2), inset 0px -2px 5px 0px rgba(0, 0, 0, 0.2);
+    border: none;
+    cursor: pointer;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    transition: ease-out 0.2s all;
+}
+.notfound_btn:hover {
+    text-shadow: 0px 1px 1px #343434;
+    transform: translateY(-5px);
+    color: black!important;
+    box-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 0.1), inset 0px -3px 7px 0px rgba(0, 0, 0, 0.2);
+    transition: ease-out 0.2s all;
+}

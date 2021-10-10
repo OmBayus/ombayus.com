@@ -101,3 +101,26 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     z-index: 9;
 }
+
+.aboutBtn{
+    background: #ffbd39;
+    border: 1px solid #ffbd39;
+    color: #000000;
+    cursor: pointer;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: 0px 24px 36px -11px rgb(0 0 0 / 9%);
+    -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 24px 36px -11px rgb(0 0 0 / 9%);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: all .2s;
+}
+
+.aboutBtn:hover{
+    opacity: .7;
+}
