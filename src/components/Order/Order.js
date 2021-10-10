@@ -25,7 +25,13 @@ const Order = ()=>{
     useEffect(()=>{
         OrderService.checkout(id)
         .then(res=>{
-            setOrder(res.data)
+            if(res.data.success === false){
+                window.location = "/404"
+            }
+            else{
+                setOrder(res.data)
+            }
+            
         })
         .catch(err=>{
             window.location = "/404"
