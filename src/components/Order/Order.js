@@ -28,7 +28,7 @@ const Order = ()=>{
             setOrder(res.data)
         })
         .catch(err=>{
-            console.log(err)
+            // window.location = "/404"
         })
     },[id])
 
