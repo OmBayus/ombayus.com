@@ -11,7 +11,8 @@ const getAll = async ()=>{
 
 const sendMsg = async (contact)=>{
       return axios.post(url+"sendMsg",contact,{
-            withCredentials: true
+            withCredentials: true,
+            credentials: 'include'
       })
 
       
