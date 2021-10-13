@@ -4,7 +4,7 @@ const url = process.env.REACT_APP_API_URL+"product/"
 
 
 const getAll = async ()=>{
-      const res = await axios.get(url+"getall")
+      const res = await axios.get(url+"getall?status=true")
 
       return res.data
 }
