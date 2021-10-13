@@ -7,6 +7,7 @@ import MuiAlert from '@mui/material/Alert';
 import ContactService from "../../services/contact"
 
 import "./Contact.css"
+import Cookies from "js-cookie";
 
 const Alert = React.forwardRef(function Alert(props, ref) {
       return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
@@ -49,6 +50,7 @@ const Contact = ()=>{
                   }
                   else{
                         setContact(prevValue=>({...prevValue,progress:false,alert:true,alertMsg:"Message sent",error:false}))
+                        Cookies.set('msg',true,{expires:(1/24)})
                   }
             }).catch(err=>{
                   setContact(prevValue=>({...prevValue,progress:false,alert:true,alertMsg:err.message,error:true}))

@@ -1,4 +1,5 @@
 import axios from "axios"
+import Cookies from "js-cookie"
 
 const url = process.env.REACT_APP_API_URL+"contact/"
 
@@ -10,12 +11,7 @@ const getAll = async ()=>{
 }
 
 const sendMsg = async (contact)=>{
-      return axios.post(url+"sendMsg",contact,{
-            withCredentials: true,
-            credentials: 'include'
-      })
-
-      
+      return axios.post(url+"sendMsg",{...contact,msg:Cookies.get('msg')})
 }
 
 
