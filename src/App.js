@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 import {Switch,Route,useLocation} from "react-router-dom";
 import { socket } from "./socket";
+import TrafficService from "./services/traffic"
 
 //components
 import Navbar from "./components/Navbar/Navbar"
@@ -23,6 +24,10 @@ const App = ()=>{
         open:false,
         msg:""
     })
+
+    useEffect(()=>{
+        TrafficService()
+    },[])
 
     useEffect(()=>{
         window.scroll(0,0)
