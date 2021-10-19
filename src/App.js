@@ -26,9 +26,7 @@ const App = ()=>{
     })
 
     useEffect(()=>{
-        TrafficService().then(res=>{
-            console.log(res)
-        })
+        TrafficService()
     },[])
 
     useEffect(()=>{
