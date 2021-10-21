@@ -7,6 +7,7 @@ import TrafficService from "./services/traffic"
 import Navbar from "./components/Navbar/Navbar"
 import Footer from "./components/Footer/Footer"
 import Msg from "./components/Msg";
+import Cookies from "js-cookie";
 
 const Home = React.lazy(()=>import("./components/Home/Home"))
 const About = React.lazy(()=>import("./components/About/About"))
@@ -26,7 +27,11 @@ const App = ()=>{
     })
 
     useEffect(()=>{
-        TrafficService()
+        if(!Cookies.get('trf')){
+            TrafficService().then(res=>{
+                Cookies.set('trf',true,{expires:(1/24)})
+            })
+        }
     },[])
 
     useEffect(()=>{
