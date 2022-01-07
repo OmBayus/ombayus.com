@@ -39,7 +39,7 @@ const About = ()=>{
                                     <li className="d-flex"><span>Year of birth:</span> <span>2000</span></li>
                                     <li className="d-flex"><span>Address:</span> <span>Çankaya / Ankara</span></li>
                                     <li className="d-flex"><span>Email:</span> <span>info@ombayus.com</span></li>
-                                    <li className="d-flex"><span>Phone: </span> <span>+90 551 609 30 25</span></li>
+                                    <li className="d-flex"><span>Phone: </span> <span>**********</span></li>
                                 </ul>
                             </div>
                             </div>
