@@ -82,7 +82,7 @@ const Contact = ()=>{
                                           <i className="fa fa-map-marker"></i> Çankaya/Ankara Türkiye
                                           </div>
                                           <div className="contact-row">
-                                          <i className="fa fa-phone"></i> +90 551 609 30 25
+                                          <i className="fa fa-phone"></i> **********
                                           </div>
                                           <div className="contact-row">
                                           <i className="fa fa-envelope"></i> info@ombayus.com
