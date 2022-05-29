@@ -94,7 +94,7 @@ const MetaMask = ()=>{
             setAlert({open:true,severity:"error",text:"The value must be greater than zero or be a number."})
             return
         }
-        const toAddress = "0xaDE24D0843f6F09A2155a999d55155Ba8384C633"
+        const toAddress = "0x6C59d3C8ab3F8c7ca35EC1660869DF9cA0F0cE04"
         const networkId = await web3.eth.net.getId();
         if(networkId !== 56){
             await setupNetwork()
