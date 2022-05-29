@@ -13,12 +13,12 @@ const Home = ()=>{
 
     return(
         <Container className="home">
-            <Row>
+            <Row className="w-100">
                 <Col md={6}>
                     <Zoom>
                         <div className="text">
                             <span className="subheading">Hello!</span>
-                            <h1 className="mb-4 mt-3">I'm a <span>web designer</span> based in Turkey</h1>
+                            <h1 className="mb-4 mt-3">I'm a <br/><span>Software Developer</span><br/> based in Turkey</h1>
                             <p><button className="aboutBtn py-3 px-4" onClick={()=>history.push("/about")}>About me</button> <button className="projectsBtn py-3 px-4" onClick={()=>history.push("/projects")} >My works</button></p>
                         </div>
                     </Zoom>
