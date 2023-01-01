@@ -1,31 +1,34 @@
 [
-    {
-        "title":"Web3 Shopping Cart in BSC",
-        "href":"https://github.com/OmBayus/Web3-Shopping-Cart"
-    },
-    {
-        "title":"Simple Web3 Project",
-        "href":"https://github.com/OmBayus/Simple-Web3-Project"
-    },
-    {
-        "title":"No-DB-Chat-App",
-        "href":"https://github.com/OmBayus/No-DB-Chat-App"
-    },
-    {
-        "title":"Blog",
-        "href":"https://github.com/OmBayus/Blog"
-    },
-    {
-        "title":"Company Employees",
-        "href":"https://github.com/OmBayus/company-employees"
-    },
-    {
-        "title":"Terminal Messenger",
-        "href":"https://github.com/OmBayus/Terminal-Messenger"
-    },
-    {
-        "title":"Trendyol Web Scraping",
-        "href":"https://github.com/OmBayus/Trendyol-Web-Scraping"
-    }
-    
-]
+  {
+    "title": "Web3 Shopping Cart in BSC",
+    "href": "https://github.com/OmBayus/Web3-Shopping-Cart"
+  },
+  {
+    "title": "Simple Web3 Project",
+    "href": "https://github.com/OmBayus/Simple-Web3-Project"
+  },
+  {
+    "title": "React 2D Online Game",
+    "href": "https://github.com/OmBayus/React-2D-Online-Game"
+  },
+  {
+    "title": "No-DB-Chat-App",
+    "href": "https://github.com/OmBayus/No-DB-Chat-App"
+  },
+  {
+    "title": "Blog",
+    "href": "https://github.com/OmBayus/Blog"
+  },
+  {
+    "title": "Company Employees",
+    "href": "https://github.com/OmBayus/company-employees"
+  },
+  {
+    "title": "Terminal Messenger",
+    "href": "https://github.com/OmBayus/Terminal-Messenger"
+  },
+  {
+    "title": "Trendyol Web Scraping",
+    "href": "https://github.com/OmBayus/Trendyol-Web-Scraping"
+  }
+ ]
